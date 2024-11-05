@@ -31,7 +31,7 @@
             position: fixed;
             width: 100%;
             height: 100%;
-            background: black; /* خلفية شاشة التحميل */
+            background:#131212; /* خلفية شاشة التحميل */
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -100,6 +100,25 @@
 </script>
 
 <script src="flutter_bootstrap.js" async></script>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyDn8KhbOYTvsc5jjIwuRbRs2IDEhX6mlfM",
+      authDomain: "my-portfolio-583a1.firebaseapp.com",
+      projectId: "my-portfolio-583a1",
+      storageBucket: "my-portfolio-583a1.firebasestorage.app",
+      messagingSenderId: "857170742436",
+      appId: "1:857170742436:web:992dbb650e216455fa2a31"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+</script>
 </body>
 </html>
 
